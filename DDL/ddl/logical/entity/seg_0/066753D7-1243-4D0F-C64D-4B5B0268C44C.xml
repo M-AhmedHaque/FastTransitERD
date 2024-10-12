@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="066753D7-1243-4D0F-C64D-4B5B0268C44C" name="Tracker">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:20:24 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TrackerID" id="E89BEC27-C370-7A23-8825-A182EA9B4B06">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:21:01 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="96F33B54-62E8-5910-5434-BA3A78A70EE0">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:20:58 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Timestamp" id="D17398BD-25D7-EF7B-00D5-0D406DDC064E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:21:00 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="93F7DCF0-FD97-BE49-51E8-76AD52B4143A">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:46:16 UTC</createdTime>
+<generatorID>4F463E87-312F-A3D5-7464-7E16E8A82881</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="0557C520-8F92-A57E-B8A2-D7BA430AA98F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:46:16 UTC</createdTime>
+<generatorID>4F463E87-312F-A3D5-7464-7E16E8A82881</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="258A238D-E678-D9CF-09AA-790DB7D28085" name="Tracker PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:21:19 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E89BEC27-C370-7A23-8825-A182EA9B4B06</attributeRef>
+<attributeRef>93F7DCF0-FD97-BE49-51E8-76AD52B4143A</attributeRef>
+<attributeRef>0557C520-8F92-A57E-B8A2-D7BA430AA98F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

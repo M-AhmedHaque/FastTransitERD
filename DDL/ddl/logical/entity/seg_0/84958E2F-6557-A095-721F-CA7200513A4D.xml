@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84958E2F-6557-A095-721F-CA7200513A4D" name="User">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 09:51:27 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UserID" id="B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:05 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="95AD3F25-B947-6C36-A1CB-5BC8962217EF">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:05 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="FC726941-33EB-D69C-09FF-5213C1F8A893">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:05 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="A640685F-4F65-F768-798B-9893D92082DD">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:05 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="F4512F49-D29C-8958-58BD-43D031D38618">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:05 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="85E9336A-E628-3EFB-3982-B00F35EF52A0">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:06 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="07732916-0359-7C94-43AC-A27DCC35BC95">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:06 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNIC" id="6FFAAAB2-B2A6-1A70-4B2F-3FFCDBD12A73">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:06 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role" id="B79BA020-3989-04B1-13FE-443691F529E0">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:07 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:23:32 UTC</createdTime>
+<generatorID>18E6C04B-7EE7-4B9A-EB02-C778DE011AEC</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>EDA94436-98AA-03EE-2841-F168DCB3D8A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID1" id="3D0CB2F6-EAE2-4049-4C92-24E32F6942F7">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:42:02 UTC</createdTime>
+<generatorID>566A2D3D-EE36-8A58-6082-3A9231497FCD</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID1" id="A3549B14-03ED-FEAE-8B82-99506A158DCA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:42:02 UTC</createdTime>
+<generatorID>566A2D3D-EE36-8A58-6082-3A9231497FCD</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID2" id="2DEF2680-197F-451B-204D-9A01178CCDFE">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:47:16 UTC</createdTime>
+<generatorID>199B25F8-4233-FB3D-A826-DF5032B5D035</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID2" id="2625A233-BB33-F503-D3A0-095A694F610F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:47:16 UTC</createdTime>
+<generatorID>199B25F8-4233-FB3D-A826-DF5032B5D035</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13C59745-A8D7-3F11-309C-39C52098E8E5" name="User PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:02:42 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</attributeRef>
+<attributeRef>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

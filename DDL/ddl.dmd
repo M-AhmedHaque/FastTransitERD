@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ddl" id="6AB5365D-E53C-8B60-9254-55D3E6D81DB8" version="3.5">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 09:24:24 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6AB5365D-E53C-8B60-9254-55D3E6D81DB8</designId>
+</OSDM_Design>

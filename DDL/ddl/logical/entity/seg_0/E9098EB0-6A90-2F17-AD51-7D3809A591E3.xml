@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9098EB0-6A90-2F17-AD51-7D3809A591E3" name="Maintenance">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:30:23 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MaintenanceID" id="E8CBE8FF-18DC-BAE9-FBF5-0DE6DE34BD3D">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:30:48 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MaintenanceDate" id="8CE8A5E7-C85D-DA82-8148-46EF7E26596A">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:30:50 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssueDetails" id="7B67F3C8-7267-FDFC-E326-AB6596219C09">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:30:52 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="D0021435-B801-CD9F-336B-16A4A6B5F154">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:30:54 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusID" id="FF775AD0-1E37-3E84-A75C-2D166E5AEA1E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 13:01:07 UTC</createdTime>
+<generatorID>5456D5B2-0F2C-9A22-15F2-BAD5E78F2E7E</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5A2CAA5A-8C6C-2100-2F15-54B9837D2758</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="058BE179-6541-269F-CAF9-13450C0C96D7">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 13:01:07 UTC</createdTime>
+<generatorID>5456D5B2-0F2C-9A22-15F2-BAD5E78F2E7E</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>3989D492-F4AC-BB87-E984-AFB04679E62E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A939603-CE5D-2EFE-14C3-95F2904FB375" name="Maintenance PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:31:23 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8CBE8FF-18DC-BAE9-FBF5-0DE6DE34BD3D</attributeRef>
+<attributeRef>FF775AD0-1E37-3E84-A75C-2D166E5AEA1E</attributeRef>
+<attributeRef>058BE179-6541-269F-CAF9-13450C0C96D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DC93D56-62A6-234C-1BD5-7834ECFA289C" name="Notification">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:12:06 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NotificationID" id="8087B60C-99CF-49A0-AE2D-022292852421">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:12:38 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="9D43AFBD-5087-B10D-177F-6338D16215D8">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:12:38 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NotificationText" id="49E193E2-0846-14C1-3878-F2BE9A6BF93E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:12:38 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateSent" id="16FF9494-377B-EB8A-B215-7656DBFEA1AA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:12:40 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="484F2DC7-2423-0484-DF04-86F3AE650B81">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:43:51 UTC</createdTime>
+<generatorID>087AEEBD-A041-6836-7AF3-5927B1F95DFC</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="6F8B6551-2068-7513-2636-F2F04664C971">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:43:51 UTC</createdTime>
+<generatorID>087AEEBD-A041-6836-7AF3-5927B1F95DFC</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="829488DB-B1D9-00FA-F8CF-B165702DDC84" name="Notification PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:12:59 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8087B60C-99CF-49A0-AE2D-022292852421</attributeRef>
+<attributeRef>484F2DC7-2423-0484-DF04-86F3AE650B81</attributeRef>
+<attributeRef>6F8B6551-2068-7513-2636-F2F04664C971</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

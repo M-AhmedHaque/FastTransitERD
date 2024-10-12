@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72CF7510-458D-6FD7-3DA0-28991BEF1547" name="Complaint">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:06:24 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ComplainID" id="64C2B217-77EC-022E-01E3-9E9FC4393EDF">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:06:50 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ComplainText" id="08E386D1-DFD0-5CC2-23BA-9DCDCA7DE64F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:06:50 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="F57E3C28-E0E4-46F2-40EA-7FD0BDB3E7A8">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:06:50 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateField" id="16224FBC-CA1A-CFBB-7FE5-61318E821ACD">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:06:50 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="B8B01D62-9412-8DED-16DF-65FA9CB9E9A2">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:40:08 UTC</createdTime>
+<generatorID>84ACD71B-414C-008E-200F-8D03CF79278E</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="5401E176-6AC2-65E9-90CB-15A18EE534FE">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:40:08 UTC</createdTime>
+<generatorID>84ACD71B-414C-008E-200F-8D03CF79278E</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusID" id="A35EEE78-4023-CA91-5270-356E398F8B40">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:58:52 UTC</createdTime>
+<generatorID>1C8AB65D-6755-77AF-8266-C97B128A018B</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5A2CAA5A-8C6C-2100-2F15-54B9837D2758</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID1" id="84846DEF-AF86-87AA-8672-DD61553D80DD">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:58:52 UTC</createdTime>
+<generatorID>1C8AB65D-6755-77AF-8266-C97B128A018B</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>3989D492-F4AC-BB87-E984-AFB04679E62E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA1C7ECF-D3F3-05C8-3F0B-C3C8A40C9FFA" name="Complaint PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:07:13 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64C2B217-77EC-022E-01E3-9E9FC4393EDF</attributeRef>
+<attributeRef>B8B01D62-9412-8DED-16DF-65FA9CB9E9A2</attributeRef>
+<attributeRef>5401E176-6AC2-65E9-90CB-15A18EE534FE</attributeRef>
+<attributeRef>A35EEE78-4023-CA91-5270-356E398F8B40</attributeRef>
+<attributeRef>84846DEF-AF86-87AA-8672-DD61553D80DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

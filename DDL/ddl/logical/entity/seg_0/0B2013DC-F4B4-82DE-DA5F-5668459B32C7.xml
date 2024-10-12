@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B2013DC-F4B4-82DE-DA5F-5668459B32C7" name="Attendance">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:23:11 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AttendanceID" id="185BFEDD-D0D4-917A-3342-CEA7F1CAFE86">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:27:00 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TimeStamp" id="C3EB7193-64D1-DDA7-586B-172F2536E0EB">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:24:23 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="42F662C8-BA6A-9955-D0A1-62BAE0518484">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:24:24 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shift" id="4DDA8814-DF5E-295B-8B84-4314CB6B750D">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:24:24 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="5193EFFE-8B37-9B74-8E95-A8F3AA65A057">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:51:26 UTC</createdTime>
+<generatorID>A68834C8-CC4E-BC4D-0CAC-C3E10AB1F258</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>B86FC06A-48DD-0A2A-1B31-68EE7A68C0F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="73022B73-6D4F-48B8-78C4-4CE6342B3CD0">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:51:26 UTC</createdTime>
+<generatorID>A68834C8-CC4E-BC4D-0CAC-C3E10AB1F258</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5C80C6AA-A4B7-33B2-5293-35DC7ADDEE74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="824E4672-966C-8EE2-5A80-69AA137E6CED" name="Attendance PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:24:46 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>185BFEDD-D0D4-917A-3342-CEA7F1CAFE86</attributeRef>
+<attributeRef>5193EFFE-8B37-9B74-8E95-A8F3AA65A057</attributeRef>
+<attributeRef>73022B73-6D4F-48B8-78C4-4CE6342B3CD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

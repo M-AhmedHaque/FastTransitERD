@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A440D90-5DEB-D61A-C988-4ED555B6699A" name="Row">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:53:33 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RowID" id="B3832BC6-63D4-AA97-FB1A-E89272BD6A80">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:53:46 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumberOfSeats" id="C6DE210B-611E-030C-A5AA-BFEA11896C3E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:53:47 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RowCategory" id="CAE85178-AD0D-7C63-80CD-D739F3EB9F9F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 10:53:59 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusID" id="E837CBE9-4C8D-6730-42B5-E92ED52CCDDB">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:57:16 UTC</createdTime>
+<generatorID>2D7F6E75-8A85-DEC7-80C0-1F9765F1E4C2</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>5A2CAA5A-8C6C-2100-2F15-54B9837D2758</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="260C7295-A712-7B00-C3BD-E64F49ECD487">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 12:57:16 UTC</createdTime>
+<generatorID>2D7F6E75-8A85-DEC7-80C0-1F9765F1E4C2</generatorID>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<referedAttribute>3989D492-F4AC-BB87-E984-AFB04679E62E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9470F63-C667-A717-0DCF-105EB1EC06BC" name="Row PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 11:22:26 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3832BC6-63D4-AA97-FB1A-E89272BD6A80</attributeRef>
+<attributeRef>E837CBE9-4C8D-6730-42B5-E92ED52CCDDB</attributeRef>
+<attributeRef>260C7295-A712-7B00-C3BD-E64F49ECD487</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

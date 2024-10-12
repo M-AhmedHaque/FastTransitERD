@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0B2013DC-F4B4-82DE-DA5F-5668459B32C7" name="Attendance" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6BA6475-8702-5DED-AF42-714A6036A363" name="Bus" seqName="seg_0"/>
+   <object objectType="Entity" objectID="804C6F62-78F0-9C01-0AFB-7474CA5364D1" name="BusDriver" seqName="seg_0"/>
+   <object objectType="Entity" objectID="72CF7510-458D-6FD7-3DA0-28991BEF1547" name="Complaint" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6F1B614F-32F3-A1B7-843A-2CA15F83C923" name="Contract" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6B0E3049-2506-7A32-6C2C-E6AE94344962" name="Faculty" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E9098EB0-6A90-2F17-AD51-7D3809A591E3" name="Maintenance" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8DC93D56-62A6-234C-1BD5-7834ECFA289C" name="Notification" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E1412A11-B7F5-97F6-9D8A-9660636AAD01" name="Payment" seqName="seg_0"/>
+   <object objectType="Entity" objectID="00AC9AC9-E401-DBC8-113F-303230392AF8" name="PointCard" seqName="seg_0"/>
+   <object objectType="Entity" objectID="19BB1727-A4B4-AA37-52F7-B022C2B0A587" name="Route" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3A440D90-5DEB-D61A-C988-4ED555B6699A" name="Row" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE27A2B3-5657-9670-2A5E-ACBD31C63EB1" name="Seat" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6FF4AAEB-B866-E101-1A0A-5A61620E7941" name="Stop" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D506E6E5-A1FF-364A-47CA-43BA760E062A" name="Student" seqName="seg_0"/>
+   <object objectType="Entity" objectID="066753D7-1243-4D0F-C64D-4B5B0268C44C" name="Tracker" seqName="seg_0"/>
+   <object objectType="Entity" objectID="95138561-A059-3EC5-F31E-D1DB93FAC3B2" name="TrafficAlert" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A4DC404D-8DDF-C1B1-A281-48D10748E740" name="University" seqName="seg_0"/>
+   <object objectType="Entity" objectID="84958E2F-6557-A095-721F-CA7200513A4D" name="User" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1525E4E9-0EC7-1646-CB9F-800D62DFE3D9" name="Vendor" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EEEED8F8-A0D0-2ED9-91CD-50B793E01A94" name="Can" seqName="seg_0"/>
+   <object objectType="Relation" objectID="18E6C04B-7EE7-4B9A-EB02-C778DE011AEC" name="Have" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B01BBC8C-9725-DB9E-F9D7-F3A8D1FABEE2" name="Manages" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4F463E87-312F-A3D5-7464-7E16E8A82881" name="can " seqName="seg_0"/>
+   <object objectType="Relation" objectID="84ACD71B-414C-008E-200F-8D03CF79278E" name="can file" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1C8AB65D-6755-77AF-8266-C97B128A018B" name="can have" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8798A6B4-661E-A7A5-F233-A21046330866" name="can have a" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5456D5B2-0F2C-9A22-15F2-BAD5E78F2E7E" name="can havev1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CB8710E2-70A7-2030-5D14-EC7CF2CEE404" name="can make" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A68834C8-CC4E-BC4D-0CAC-C3E10AB1F258" name="can mark" seqName="seg_0"/>
+   <object objectType="Relation" objectID="566A2D3D-EE36-8A58-6082-3A9231497FCD" name="can see" seqName="seg_0"/>
+   <object objectType="Relation" objectID="087AEEBD-A041-6836-7AF3-5927B1F95DFC" name="can seev1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AC8E6E85-6138-A08B-315D-811D6CF797A9" name="can use" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0A5D1AFB-A68A-24BF-F18E-785C05BD9BDD" name="canv1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2D7F6E75-8A85-DEC7-80C0-1F9765F1E4C2" name="contains" seqName="seg_0"/>
+   <object objectType="Relation" objectID="199B25F8-4233-FB3D-A826-DF5032B5D035" name="mark" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9919B58C-D28B-180D-5BE3-12F00F8924DE" name="occupy" seqName="seg_0"/>
+   <object objectType="Relation" objectID="91A8435A-7D21-BB73-EFB0-6BB9989868E3" name="oversees" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

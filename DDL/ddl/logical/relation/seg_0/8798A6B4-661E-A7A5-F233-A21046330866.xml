@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="can have a" directorySegmentName="seg_0" id="8798A6B4-661E-A7A5-F233-A21046330866">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-12 13:00:04 UTC</createdTime>
+<ownerDesignName>ddl</ownerDesignName>
+<engineerTo>
+<item key="ECB64132-15F5-933F-1822-7691F4489685" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D6BA6475-8702-5DED-AF42-714A6036A363</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>066753D7-1243-4D0F-C64D-4B5B0268C44C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
